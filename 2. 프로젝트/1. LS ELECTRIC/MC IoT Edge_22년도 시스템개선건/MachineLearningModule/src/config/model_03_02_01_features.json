@@ -1,0 +1,11 @@
+{
+    "feature_names": [
+        "FTUR_NF_CPSR_MAX_N1",
+        "FTUR_NF_CPSR_MAX_N2",
+        "FTUR_NF_CPSR_MAX_N3",
+        "FTUR_NF_CPSR_MAX_N4",
+        "FTUR_NF_RMS",
+        "FTUR_NF_SPTR_RMS",
+        "FTUR_NF_CPSR_RMS"
+    ]
+}
