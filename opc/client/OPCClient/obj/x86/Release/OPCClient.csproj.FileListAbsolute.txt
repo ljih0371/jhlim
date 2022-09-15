@@ -1,7 +1,0 @@
-C:\Users\Administrator\Desktop\hsd\TStory\Programming\Wrapper OPC\OPCClient\OPCClient\bin\Release\OPCClient.exe
-C:\Users\Administrator\Desktop\hsd\TStory\Programming\Wrapper OPC\OPCClient\OPCClient\bin\Release\OPCClient.pdb
-C:\Users\Administrator\Desktop\hsd\TStory\Programming\Wrapper OPC\OPCClient\OPCClient\obj\x86\Release\OPCClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\hsd\TStory\Programming\Wrapper OPC\OPCClient\OPCClient\obj\x86\Release\OPCClient.csproj.GenerateResource.Cache
-C:\Users\Administrator\Desktop\hsd\TStory\Programming\Wrapper OPC\OPCClient\OPCClient\obj\x86\Release\OPCClient.exe
-C:\Users\Administrator\Desktop\hsd\TStory\Programming\Wrapper OPC\OPCClient\OPCClient\obj\x86\Release\OPCClient.pdb
-C:\Users\Administrator\Desktop\hsd\TStory\Programming\Wrapper OPC\OPCClient\OPCClient\obj\x86\Release\OPCClient.FormMain.resources
