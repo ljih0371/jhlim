@@ -1,0 +1,13 @@
+FROM debian:9.3
+RUN apt-get update && apt-get install -y blackbox curl default-jre supervisor tightvncserver
+RUN curl -LO https://s3-us-west-2.amazonaws.com/sm-mirror/applications/prosys-opc-ua-simulation-server-2.3.2-146.deb
+# The post-install script depends on a bunch of desktop utilities that we don't
+# have inside the container, so we must edit the package before we install it.
+RUN dpkg --unpack prosys*.deb && \
+    rm /var/lib/dpkg/info/prosys*.postinst && \
+    dpkg --configure prosys-opc-ua-simulation-server
+COPY ./supervisord.conf ./supervisord.conf
+COPY ./settings.xml /root/.prosys/SimulationServer/settings.xml
+ENV DISPLAY=:1
+EXPOSE 4096 4097 5901
+CMD ["supervisord", "-c", "./supervisord.conf"]

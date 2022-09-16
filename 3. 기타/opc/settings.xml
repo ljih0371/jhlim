@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applicationSettings>
+    <securityModes>
+        <securityMode messageMode="Sign" securityPolicy="http://opcfoundation.org/UA/SecurityPolicy#Basic256"/>
+        <securityMode messageMode="SignAndEncrypt" securityPolicy="http://opcfoundation.org/UA/SecurityPolicy#Basic128Rsa15"/>
+        <securityMode messageMode="SignAndEncrypt" securityPolicy="http://opcfoundation.org/UA/SecurityPolicy#Basic256"/>
+        <securityMode messageMode="Sign" securityPolicy="http://opcfoundation.org/UA/SecurityPolicy#Basic128Rsa15"/>
+        <securityMode messageMode="None" securityPolicy="http://opcfoundation.org/UA/SecurityPolicy#None"/>
+    </securityModes>
+    <httpsSecurityPolicies>
+        <httpsSecurityPolicy securityPolicy="http://opcfoundation.org/UA/SecurityPolicy#TLS-1-1"/>
+        <httpsSecurityPolicy securityPolicy="http://opcfoundation.org/UA/SecurityPolicy#TLS-1-0"/>
+    </httpsSecurityPolicies>
+    <userTokenPolicies>
+        <userTokenPolicy userTokenPolicyId="anonymous"/>
+    </userTokenPolicies>
+    <bindAddresses/>
+    <defaultSimulationSettingsPath>/root/.prosys/SimulationServer/simulation.xml</defaultSimulationSettingsPath>
+    <discoveryServerURL>opc.tcp://localhost:4840</discoveryServerURL>
+    <httpsPort>4907</httpsPort>
+    <httpsServerName></httpsServerName>
+    <opcTcpPort>4906</opcTcpPort>
+    <opcTcpServerName></opcTcpServerName>
+    <registerToDiscoveryServer>false</registerToDiscoveryServer>
+    <simulationInterval>1000</simulationInterval>
+    <simulationTime>131613142660000000</simulationTime>
+    <simulationTimeIncrease>1.0</simulationTimeIncrease>
+    <useAllIpAddresses>true</useAllIpAddresses>
+    <useHttps>true</useHttps>
+    <useOpcTcp>true</useOpcTcp>
+    <validateApplicationUriInCertificate>true</validateApplicationUriInCertificate>
+</applicationSettings>
