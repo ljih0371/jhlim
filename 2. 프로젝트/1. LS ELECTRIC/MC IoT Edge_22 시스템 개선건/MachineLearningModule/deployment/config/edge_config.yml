@@ -1,0 +1,22 @@
+config:
+  line:
+    name: 1
+    plc: 172.30.183.160
+  server:
+    ip: 165.244.138.57
+    uid: lsisadmin
+    pwd: Tbvjaosvkdnj00$
+    dbname: mc_edge
+    tbname:
+      report: report
+      time: testtime
+  param:
+    cutoff: 0.5
+    rule_model:
+        FTUR_ENRG: 0.00003
+        FTUR_WVFM_STDDEV: 0.12
+        FTUR_TRGER: 1
+    ml_model:
+        FilterActiveNoiseCanceling:
+            prop_decrease: 1.0
+        

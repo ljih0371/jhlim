@@ -1,0 +1,28 @@
+{
+    "feature_names": [
+        "FTUR_CPSR_MAX_N1",
+        "FTUR_CPSR_MAX_N2",
+        "FTUR_CPSR_MAX_N3",
+        "FTUR_CPSR_MAX_N4",
+        "FTUR_CPSR_MXRMS_N1",
+        "FTUR_CPSR_MXRMS_N2",
+        "FTUR_CPSR_MXRMS_N3",
+        "FTUR_CPSR_MXRMS_N4",
+        "FTUR_RMS",
+        "FTUR_SPTR_RMS",
+        "FTUR_CPSR_RMS",
+        "FTUR_WVFM_STDDEV",
+        "FTUR_SPEC_03000",
+        "FTUR_SPEC_03030",
+        "FTUR_SPEC_03060",
+        "FTUR_SPEC_03090",
+        "FTUR_SPEC_04020",
+        "FTUR_SPEC_04050",
+        "FTUR_SPEC_04080",
+        "FTUR_SPEC_04110",
+        "FTUR_SPEC_05910",
+        "FTUR_SPEC_05940",
+        "FTUR_SPEC_05970",
+        "FTUR_SPEC_06000"
+    ]
+}

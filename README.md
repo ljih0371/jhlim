@@ -1,3 +1,2 @@
-# jhlim GitHub
-
-코드정리 필요
+# sample
+yo first test
